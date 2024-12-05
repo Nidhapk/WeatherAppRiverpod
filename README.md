@@ -1,16 +1,30 @@
-# weather_app
+<<<<<<< HEAD
+# WeatherAppRiverpod
 
-A new Flutter project.
+A simple weather application built using Flutter and the Riverpod state management library. The app provides current weather details based on the user's location and allows users to search for the weather in any city.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Home Page**:
+  - Displays the current weather of the user's location.
+  - Fetches weather data using the [Weatherstack API](https://weatherstack.com) and [Open-Meteo API](https://open-meteo.com).
 
-A few resources to get you started if this is your first Flutter project:
+- **Search Page**:
+  - Allows users to search for the current weather of any city.
+  - Displays detailed weather information for the searched city.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: For cross-platform app development.
+- **Riverpod**: For state management.
+- **Weatherstack API**: For fetching location-based weather details.
+- **Open-Meteo API**: For additional weather data.
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Nidhapk/WeatherAppRiverpod.git
+   cd WeatherAppRiverpod
+
+>>>>>>> origin/master
